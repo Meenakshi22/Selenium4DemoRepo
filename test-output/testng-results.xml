@@ -1,139 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[<a href='C:\Users\meena\Workspace\demo-projects\screenshots\launchChromeBrowser.png'> <img src='C:\Users\meena\Workspace\demo-projects\screenshots\launchChromeBrowser.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\meena\Workspace\demo-projects\screenshots\sampleAssert.png'> <img src='C:\Users\meena\Workspace\demo-projects\screenshots\sampleAssert.png' height='100' width='100'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-03-05T16:50:28 IST" name="Default suite" finished-at="2024-03-05T16:50:39 IST" duration-ms="10696">
+  <suite started-at="2024-03-14T11:12:59 IST" name="Default suite" finished-at="2024-03-14T11:12:59 IST" duration-ms="133">
     <groups>
     </groups>
-    <test started-at="2024-03-05T16:50:28 IST" name="Default test" finished-at="2024-03-05T16:50:39 IST" duration-ms="10696">
-      <class name="testsamples.LaunchBrowser">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testsamples.LaunchBrowser@712625fd]" started-at="2024-03-05T16:50:28 IST" name="initializeDriver" finished-at="2024-03-05T16:50:30 IST" duration-ms="2112" status="PASS">
+    <test started-at="2024-03-14T11:12:59 IST" name="Default test" finished-at="2024-03-14T11:12:59 IST" duration-ms="133">
+      <class name="testsamples.TestngAnnotationsTest">
+        <test-method is-config="true" signature="display()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display" finished-at="2024-03-14T11:12:59 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="launchChromeBrowser()[pri:0, instance:testsamples.LaunchBrowser@712625fd]" started-at="2024-03-05T16:50:30 IST" name="launchChromeBrowser" finished-at="2024-03-05T16:50:37 IST" duration-ms="6828" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1067)
-at org.testng.Assert.assertEquals(Assert.java:1031)
-at org.testng.Assert.assertEquals(Assert.java:1077)
-at testsamples.LaunchBrowser.launchChromeBrowser(LaunchBrowser.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\meena\Workspace\demo-projects\screenshots\launchChromeBrowser.png'> <img src='C:\Users\meena\Workspace\demo-projects\screenshots\launchChromeBrowser.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchChromeBrowser -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testsamples.LaunchBrowser@712625fd]" started-at="2024-03-05T16:50:37 IST" name="quitBrowser" finished-at="2024-03-05T16:50:38 IST" duration-ms="230" status="PASS">
+        </test-method> <!-- display -->
+        <test-method is-config="true" signature="display2()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display2" finished-at="2024-03-14T11:12:59 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitBrowser -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testsamples.LaunchBrowser@712625fd]" started-at="2024-03-05T16:50:38 IST" name="initializeDriver" finished-at="2024-03-05T16:50:39 IST" duration-ms="915" status="PASS">
+        </test-method> <!-- display2 -->
+        <test-method is-config="true" signature="display3()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display3" finished-at="2024-03-14T11:12:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="sampleAssert()[pri:0, instance:testsamples.LaunchBrowser@712625fd]" started-at="2024-03-05T16:50:39 IST" name="sampleAssert" finished-at="2024-03-05T16:50:39 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1067)
-at org.testng.Assert.assertEquals(Assert.java:1031)
-at org.testng.Assert.assertEquals(Assert.java:1077)
-at testsamples.LaunchBrowser.sampleAssert(LaunchBrowser.java:51)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\meena\Workspace\demo-projects\screenshots\sampleAssert.png'> <img src='C:\Users\meena\Workspace\demo-projects\screenshots\sampleAssert.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sampleAssert -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testsamples.LaunchBrowser@712625fd]" started-at="2024-03-05T16:50:39 IST" name="quitBrowser" finished-at="2024-03-05T16:50:39 IST" duration-ms="202" status="PASS">
+        </test-method> <!-- display3 -->
+        <test-method is-config="true" signature="display4()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display4" finished-at="2024-03-14T11:12:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- testsamples.LaunchBrowser -->
+        </test-method> <!-- display4 -->
+        <test-method signature="display5()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display5" finished-at="2024-03-14T11:12:59 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display5 -->
+        <test-method is-config="true" signature="display6()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display6" finished-at="2024-03-14T11:12:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display6 -->
+        <test-method is-config="true" signature="display7()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display7" finished-at="2024-03-14T11:12:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display7 -->
+        <test-method is-config="true" signature="display8()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display8" finished-at="2024-03-14T11:12:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display8 -->
+        <test-method is-config="true" signature="display9()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:13:00 IST" name="display9" finished-at="2024-03-14T11:13:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display9 -->
+      </class> <!-- testsamples.TestngAnnotationsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
