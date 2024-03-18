@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testsamples.LaunchBrowser">
+      <class name="com.testcases.LandingPageTest">
         <methods>
-          <include name="sampleAssert"/>
-          <include name="initializeDriver"/>
-          <include name="quitBrowser"/>
-          <include name="launchChromeBrowser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLandingPageLoginButton"/>
         </methods>
-      </class> <!-- testsamples.LaunchBrowser -->
+      </class> <!-- com.testcases.LandingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

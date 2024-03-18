@@ -2,48 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-14T11:12:59 IST" name="Default suite" finished-at="2024-03-14T11:12:59 IST" duration-ms="133">
+  <suite started-at="2024-03-18T13:53:50 IST" name="Default suite" finished-at="2024-03-18T13:54:01 IST" duration-ms="10981">
     <groups>
     </groups>
-    <test started-at="2024-03-14T11:12:59 IST" name="Default test" finished-at="2024-03-14T11:12:59 IST" duration-ms="133">
-      <class name="testsamples.TestngAnnotationsTest">
-        <test-method is-config="true" signature="display()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display" finished-at="2024-03-14T11:12:59 IST" duration-ms="41" status="PASS">
+    <test started-at="2024-03-18T13:53:50 IST" name="Default test" finished-at="2024-03-18T13:54:01 IST" duration-ms="10981">
+      <class name="com.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.LandingPageTest@33065d67]" started-at="2024-03-18T13:53:50 IST" name="setUp" finished-at="2024-03-18T13:53:57 IST" duration-ms="6465" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- display -->
-        <test-method is-config="true" signature="display2()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display2" finished-at="2024-03-14T11:12:59 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLandingPageLoginButton()[pri:0, instance:com.testcases.LandingPageTest@33065d67]" started-at="2024-03-18T13:53:57 IST" name="verifyLandingPageLoginButton" finished-at="2024-03-18T13:54:01 IST" duration-ms="4045" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- display2 -->
-        <test-method is-config="true" signature="display3()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display3" finished-at="2024-03-14T11:12:59 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyLandingPageLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LandingPageTest@33065d67]" started-at="2024-03-18T13:54:01 IST" name="tearDown" finished-at="2024-03-18T13:54:01 IST" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- display3 -->
-        <test-method is-config="true" signature="display4()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display4" finished-at="2024-03-14T11:12:59 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display4 -->
-        <test-method signature="display5()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display5" finished-at="2024-03-14T11:12:59 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display5 -->
-        <test-method is-config="true" signature="display6()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display6" finished-at="2024-03-14T11:12:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display6 -->
-        <test-method is-config="true" signature="display7()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display7" finished-at="2024-03-14T11:12:59 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display7 -->
-        <test-method is-config="true" signature="display8()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:12:59 IST" name="display8" finished-at="2024-03-14T11:12:59 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display8 -->
-        <test-method is-config="true" signature="display9()[pri:0, instance:testsamples.TestngAnnotationsTest@6d60fe40]" started-at="2024-03-14T11:13:00 IST" name="display9" finished-at="2024-03-14T11:13:00 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display9 -->
-      </class> <!-- testsamples.TestngAnnotationsTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LandingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
