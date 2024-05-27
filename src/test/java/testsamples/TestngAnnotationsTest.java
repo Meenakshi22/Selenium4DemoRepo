@@ -29,22 +29,30 @@ public class TestngAnnotationsTest {
 	}
 	@Test
 	public void display5() {
-		System.out.println("This is test method");
+		System.out.println("This is test method nil");
+	}
+	@Test(priority=1)
+	public void display6() {
+		System.out.println("This is test method 1");
+	}
+	@Test(priority=2)
+	public void display7() {
+		System.out.println("This is test method 2");
 	}
 	@AfterMethod
-	public void display6() {
+	public void display8() {
 		System.out.println("This is after method");
 	}
 	@AfterClass
-	public void display7() {
+	public void display9() {
 		System.out.println("This is after class");
 	}
 	@AfterTest
-	public void display8() {
+	public void display10() {
 		System.out.println("This is after test");
 	}
 	@AfterSuite
-	public void display9() {
+	public void display11() {
 		System.out.println("This is after suite");
 	}
 	
